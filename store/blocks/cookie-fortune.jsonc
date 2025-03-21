@@ -1,0 +1,11 @@
+{
+  "store.custom#cookie-fortune": {
+    "blocks": ["cookie-fortune"]
+  },
+
+  "cookie-fortune": {
+    "props": {
+      "blockClass": "fortune"
+    }
+  }
+}
