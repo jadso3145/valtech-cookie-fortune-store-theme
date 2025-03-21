@@ -111,3 +111,17 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+
+.imageElement--cookie {
+  width: 100% !important;
+  max-width: 100%;
+  background: #f0f0f0;
+  object-fit: contain;
+  transition: transform 0.5s;
+}
+
+.imageElement--cookie:hover{
+  transform: scale(1.05);
+}
+
